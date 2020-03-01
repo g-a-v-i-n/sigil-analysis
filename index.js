@@ -14,7 +14,6 @@ const chunkStr = (str, size) => {
 
 const p2a = p => chunkStr(p.replace(/[\^~-]/g,''), 3);
 
-
 const arrEq = (a, b) => {
   if (a === b) return true;
   if (a == null || b == null) return false;
@@ -24,16 +23,14 @@ const arrEq = (a, b) => {
     if (a[i] !== b[i]) return false;
   }
   return true;
-}
+};
 
-const isTrue = b => b === true
-const isFalse = b => b === false
 
-const A = 'a'
-const B = 'b'
-const C = 'c'
-const D = 'd'
-const E = 'e'
+const A = 'a';
+const B = 'b';
+const C = 'c';
+const D = 'd';
+const E = 'e';
 
 // index 0 [a, b, c, d, e]: key for each shape
 // index 1 [0, 1, 2, 3]: rotation count
@@ -90,7 +87,7 @@ const _A = {
       if (biEq(a, b, 2, 2)) return true
       if (biEq(a, b, 0, 3)) return true
       return false
-    },
+    },.
     y: ([a, b]) => {
       if (biEq(a, b, 0, 0)) return true
       if (biEq(a, b, 3, 3)) return true
@@ -246,6 +243,10 @@ const analyze = (name) => {
     rotation: test.rotation(name),
     monolithic: test.monolithic(name),
   })
+}
+
+module.exports = {
+  test,
 }
 
 

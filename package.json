@@ -10,6 +10,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "del": "^5.1.0",
-    "svgson": "^4.0.0"
+    "svgson": "^4.0.0",
+    "urbit-ob": "^4.1.4"
   }
 }
