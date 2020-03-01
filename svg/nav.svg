@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="nav" clip-path="url(#clip0)">
+<g id="_wedge270">
+<path id="Ellipse" d="M0 0C0 70.6925 57.3075 128 128 128V0H0Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<g id="_halfArcs" clip-path="url(#clip1)">
+<path id="Ellipse_2" d="M128 96C101.492 96 77.4939 85.2564 60.1217 67.8862" stroke="white"/>
+<path id="Ellipse_3" d="M128 64C110.328 64 94.3287 56.8374 82.7471 45.2568" stroke="white"/>
+<path id="Ellipse_4" d="M128 32.3716C119.164 32.3716 111.164 28.7903 105.374 23" stroke="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="128" height="128" fill="white" transform="translate(128) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>

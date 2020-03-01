@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pun" clip-path="url(#clip0)">
+<g id="_disc">
+<circle id="Ellipse" cx="64" cy="64" r="64" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Ellipse_2" d="M112 64C112 37.4903 90.5097 16 64 16" stroke="white"/>
+<path id="Ellipse_3" d="M96 64C96 46.3269 81.6731 32 64 32" stroke="white"/>
+<path id="Ellipse_4" d="M80 64C80 55.1634 72.8366 48 64 48" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

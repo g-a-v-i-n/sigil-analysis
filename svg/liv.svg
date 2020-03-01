@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="liv" clip-path="url(#clip0)">
+<g id="_square">
+<rect id="Rectangle" width="128" height="128" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Ellipse" d="M-5.21346e-06 32C70.6924 32 128 17.6731 128 0" stroke="white"/>
+<path id="Ellipse_2" d="M3.4331e-06 96C70.6924 96 128 53.0193 128 0" stroke="white"/>
+<g id="_vline64">
+<path id="Line" d="M64 0L64 128" stroke="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

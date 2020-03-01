@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pyl" clip-path="url(#clip0)">
+<g id="_wedge90">
+<path id="Ellipse" d="M128 128C128 57.3076 70.6925 6.18013e-06 1.11901e-05 0L0 128L128 128Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Ellipse_2" d="M-5.59506e-06 128C35.3462 128 64 99.3462 64 64C64 28.6538 35.3462 1.54503e-06 0 0" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

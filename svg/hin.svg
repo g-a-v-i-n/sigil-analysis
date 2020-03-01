@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="hin" clip-path="url(#clip0)">
+<g id="_square">
+<rect id="Rectangle" width="128" height="128" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="32" y1="2.18557e-08" x2="32" y2="128" stroke="white"/>
+<g id="_Torus">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M48 64C48 72.8366 40.8366 80 32 80C23.1634 80 16 72.8366 16 64C16 55.1634 23.1634 48 32 48C40.8366 48 48 55.1634 48 64ZM32 72C36.4183 72 40 68.4183 40 64C40 59.5817 36.4183 56 32 56C27.5817 56 24 59.5817 24 64C24 68.4183 27.5817 72 32 72Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

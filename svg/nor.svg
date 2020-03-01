@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="nor" clip-path="url(#clip0)">
+<g id="_thumb180">
+<path id="Union" d="M64 0H128V128H64C28.6538 128 0 99.3462 0 64C0 28.6538 28.6538 0 64 0Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Ellipse" d="M64 96C46.3269 96 32 81.6731 32 64" stroke="white"/>
+<g id="_Dot">
+<circle id="Ellipse_2" cx="64" cy="64" r="11.5" fill="black" stroke="black"/>
+<circle id="Ellipse_3" cx="64" cy="64" r="9" fill="white" stroke="white" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

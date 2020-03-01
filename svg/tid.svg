@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tid" clip-path="url(#clip0)">
+<g id="_wedge270">
+<path id="Ellipse" d="M0 0C0 70.6925 57.3075 128 128 128V0H0Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="64" y1="2.18557e-08" x2="64" y2="128" stroke="white"/>
+<line id="Line_2" x1="96" y1="2.18557e-08" x2="96" y2="128" stroke="white"/>
+<g id="_Torus">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M112 32C112 40.8366 104.837 48 96 48C87.1634 48 80 40.8366 80 32C80 23.1634 87.1634 16 96 16C104.837 16 112 23.1634 112 32ZM96 40C100.418 40 104 36.4183 104 32C104 27.5817 100.418 24 96 24C91.5817 24 88 27.5817 88 32C88 36.4183 91.5817 40 96 40Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

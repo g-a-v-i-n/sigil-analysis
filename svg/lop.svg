@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lop" clip-path="url(#clip0)">
+<g id="_disc">
+<circle id="Ellipse" cx="64" cy="64" r="64" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="128" y1="64" x2="-8.87604e-09" y2="64" stroke="white"/>
+<line id="Line_2" x1="128" y1="32" x2="-8.87604e-09" y2="32" stroke="white"/>
+<g id="_Dot">
+<circle id="Ellipse_2" cx="64" cy="64" r="11.5" fill="black" stroke="black"/>
+<circle id="Ellipse_3" cx="64" cy="64" r="9" fill="white" stroke="white" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

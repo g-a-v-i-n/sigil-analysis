@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ter" clip-path="url(#clip0)">
+<g id="_thumb270">
+<path id="Union" d="M0 64L5.59506e-06 0L128 1.11901e-05V64C128 99.3462 99.3462 128 64 128C28.6538 128 -4.6351e-06 99.3462 0 64Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="96.5" y1="3.07317e-08" x2="96.5" y2="128" stroke="white"/>
+<path id="Ellipse" d="M1.01717e-06 64C35.3462 64 64 35.3462 64 0" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

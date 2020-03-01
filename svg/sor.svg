@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sor" clip-path="url(#clip0)">
+<g id="_thumb180">
+<path id="Union" d="M64 0H128V128H64C28.6538 128 0 99.3462 0 64C0 28.6538 28.6538 0 64 0Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Line" d="M-0.00292969 0L127.997 128" stroke="white" stroke-linecap="square"/>
+<g id="_halfArcs" clip-path="url(#clip1)">
+<path id="Ellipse" d="M128 0C128 35.3511 113.669 67.3551 90.5 90.5193" stroke="white"/>
+<path id="Ellipse_2" d="M96 0C96 26.5077 85.2564 50.5061 67.8862 67.8783" stroke="white"/>
+<path id="Ellipse_3" d="M64 0C64 17.6721 56.8374 33.6713 45.2568 45.2529" stroke="white"/>
+<path id="Ellipse_4" d="M32.3716 0C32.3716 8.83603 28.7903 16.8356 23 22.6264" stroke="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

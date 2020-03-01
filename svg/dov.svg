@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="dov" clip-path="url(#clip0)">
+<g id="_square">
+<rect id="Rectangle" width="128" height="128" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Line" d="M128 0L0 128" stroke="white" stroke-linecap="square"/>
+<path id="Vector" d="M-0.701724 31.9914C25.6281 31.9914 49.4822 42.5913 66.8261 59.7565M-0.701723 63.9914C16.7916 63.9914 32.6456 71.0098 44.1982 82.3844M-0.701722 95.9914C7.955 95.9914 15.8089 99.4288 21.5694 105.013" stroke="white"/>
+<path id="Ellipse" d="M0 0C35.3511 0 67.3551 14.3309 90.5193 37.5" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

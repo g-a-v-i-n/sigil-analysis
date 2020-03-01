@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="fin" clip-path="url(#clip0)">
+<g id="_square">
+<rect id="Rectangle" width="128" height="128" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="98" y1="2.18557e-08" x2="98" y2="128" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "sigil-analysis",
+  "version": "1.0.0",
+  "description": "Find good sigils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Atkinson",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "del": "^5.1.0",
+    "svgson": "^4.0.0"
+  }
+}

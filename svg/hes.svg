@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="hes" clip-path="url(#clip0)">
+<g id="_wedge0">
+<path id="Ellipse" d="M128 0C57.3075 8.42999e-07 -8.42999e-07 57.3075 0 128H128V0Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Line" d="M32 0L32 128" stroke="white"/>
+<g id="_Torus">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M48 96C48 104.837 40.8366 112 32 112C23.1634 112 16 104.837 16 96C16 87.1634 23.1634 80 32 80C40.8366 80 48 87.1634 48 96ZM32 104C36.4183 104 40 100.418 40 96C40 91.5817 36.4183 88 32 88C27.5817 88 24 91.5817 24 96C24 100.418 27.5817 104 32 104Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

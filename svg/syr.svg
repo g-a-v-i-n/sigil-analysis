@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="syr" clip-path="url(#clip0)">
+<g id="_leaf0">
+<path id="Intersect" d="M0 127.946C0.0292286 57.2783 57.3256 3.08928e-06 128 0C128 70.6823 70.7089 127.984 0.0305092 128C0.0203397 128 0.01017 128 2.36469e-09 128L0 127.946Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Line" d="M-0.00292969 0L127.997 128" stroke="white" stroke-linecap="square"/>
+<g id="_Dot">
+<circle id="Ellipse" cx="96" cy="32" r="11.5" fill="black" stroke="black"/>
+<circle id="Ellipse_2" cx="96" cy="32" r="9" fill="white" stroke="white" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

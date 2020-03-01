@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="fal" clip-path="url(#clip0)">
+<g id="_leaf0">
+<path id="Intersect" d="M0 127.946C0.0292286 57.2783 57.3256 3.08928e-06 128 0C128 70.6823 70.7089 127.984 0.0305092 128C0.0203397 128 0.01017 128 2.36469e-09 128L0 127.946Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Line" d="M0 128L128 0" stroke="white" stroke-linecap="square"/>
+<g id="_halfArcs" clip-path="url(#clip1)">
+<path id="Ellipse" d="M0 0C35.3511 0 67.3551 14.3309 90.5193 37.5" stroke="white"/>
+<path id="Ellipse_2" d="M0 32C26.5077 32 50.5061 42.7436 67.8783 60.1138" stroke="white"/>
+<path id="Ellipse_3" d="M0 64C17.6721 64 33.6713 71.1626 45.2529 82.7432" stroke="white"/>
+<path id="Ellipse_4" d="M0 95.6284C8.83603 95.6284 16.8356 99.2097 22.6264 105" stroke="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="128" height="128" fill="white" transform="translate(0 128) rotate(-90)"/>
+</clipPath>
+</defs>
+</svg>

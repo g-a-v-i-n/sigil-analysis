@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="nut" clip-path="url(#clip0)">
+<g id="_square">
+<rect id="Rectangle" width="128" height="128" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="80.0035" y1="79.9964" x2="112.003" y2="111.996" stroke="white"/>
+<line id="Line_2" y1="-0.5" x2="45.2548" y2="-0.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 79.6499 47.6499)" stroke="white"/>
+<g id="_Dot">
+<circle id="Ellipse" cx="96" cy="96" r="11.5" fill="black" stroke="black"/>
+<circle id="Ellipse_2" cx="96" cy="96" r="9" fill="white" stroke="white" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

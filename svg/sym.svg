@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sym" clip-path="url(#clip0)">
+<g id="_wedge180">
+<path id="Ellipse" d="M5.59506e-06 128C70.6925 128 128 70.6925 128 0L0 5.59506e-06L5.59506e-06 128Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<line id="Line" x1="96.5" y1="3.07317e-08" x2="96.5" y2="128" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>

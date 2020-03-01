@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="nus" clip-path="url(#clip0)">
+<g id="_wedge90">
+<path id="Ellipse" d="M128 128C128 57.3076 70.6925 6.18013e-06 1.11901e-05 0L0 128L128 128Z" fill="black" stroke="white" stroke-width="0.5"/>
+</g>
+<path id="Line" d="M-0.00280762 0L127.997 128" stroke="white" stroke-linecap="square"/>
+<path id="Ellipse_2" d="M0.000105172 128C35.3582 128 67.3679 113.664 90.5332 90.4863" stroke="white"/>
+<g id="_Dot">
+<circle id="Ellipse_3" cx="31" cy="32" r="11.5" fill="black" stroke="black"/>
+<circle id="Ellipse_4" cx="31" cy="32" r="9" fill="white" stroke="white" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>
