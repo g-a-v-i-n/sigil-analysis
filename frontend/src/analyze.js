@@ -216,6 +216,20 @@ const isMonolithic = quad => {
   return false
 }
 
+const contains = (quad, list) => {
+  const res = quad.map(q => {
+    return list.includes(q[0])
+  })
+  return res.some(v => v===true)
+}
+
+const onlyContains = (quad, list) => {
+  const res = quad.map(q => {
+    return list.includes(q[0])
+  })
+  return res.every(v => v===true)
+}
+
 const test = {
   reflection: {
     y: (p, index) => {
@@ -239,6 +253,16 @@ const test = {
   monolithic: (p, index) => {
     const tms = p2a(p).map(s => index[s])
     const res = isMonolithic(tms)
+    return res
+  },
+  contains: (p, index, list) => {
+    const tms = p2a(p).map(s => index[s])
+    const res = contains(tms, list)
+    return res
+  },
+  onlyContains: (p, index, list) => {
+    const tms = p2a(p).map(s => index[s])
+    const res = onlyContains(tms, list)
     return res
   }
 }
@@ -287,28 +311,53 @@ const randomShip = tier => compose(noSig, ob.patp, randShip)(tier);
 //   rotation: true,
 //   monolithic: true,
 //   count: 100,
+//   contains: [A, B, C, D, E]
 // }
 
 const generate = config => {
   let res = [];
   const dict = config.dict
   let p = ''
-  let report = []
-  // console.log(config)
+
+  config.contains = config.contains || [A, B, C, D, E]
+  config.containsOnly = config.containsOnly || [A, B, C, D, E]
+
+  // kind of a dumb way to do this but..
   while (res.length < config.count) {
    p = randomShip(PLANET)
-   // console.log(p)
-   if (config.yReflection) report.push(test.reflection.y(p, dict))
-   if (config.xReflection) report.push(test.reflection.x(p, dict))
-   if (config.rotation) report.push(test.rotation(p, dict))
-   if (config.monolithic) report.push(test.monolithic(p, dict))
+   if (p.length === 13) {
+     // console.log(p)
+     const yR = test.reflection.y(p, dict)
+     const xR = test.reflection.x(p, dict)
+     const ro = test.rotation(p, dict)
+     const mo = test.monolithic(p, dict)
+     const co = test.contains(p, dict, config.contains)
+     const oc = test.onlyContains(p, dict, config.onlyContains)
 
-   if (config.exclusive) {
-     if (report.every(r => r === true)) res.push(p)
-   } else {
-     if (report.some(r => r === true)) res.push(p)
+     const rep = [yR, xR, ro, mo, co, oc]
+     const con = [
+       config.yReflection || false,
+       config.xReflection || false,
+       config.rotation || false,
+       config.monolithic || false,
+       true,
+       true,
+     ]
+
+     if (config.exclusive) {
+       if (arrEq(rep, con)) res.push(p)
+     } else {
+       if (config.yReflection === true && yR === true) res.push(p)
+       if (config.xReflection === true && xR === true) res.push(p)
+       if (config.rotation === true && ro === true) res.push(p)
+       if (config.monolithic === true && mo === true) res.push(p)
+       if (config.onlyContains === true && oc === true) res.push(p)
+       if (config.contains === true && co === true) res.push(p)
+     }
    }
-   report = []
+
+
+   // report = []
   }
   return res
 }

@@ -9,12 +9,14 @@ export default class App extends React.Component {
   }
   componentDidMount() {
     const valids = generate({
-      // yReflection: true,
+      yReflection: true,
       // xReflection: true,
-      // monolithic: true
+      // monolithic: true,
       dict: dict,
-      rotation:true,
-      count: 100,
+      // rotation:true,
+      count: 10,
+      // contains: ['a']
+      onlyContains: ['e'],
       exclusive:true,
     })
     this.setState({ valids: valids })
@@ -25,12 +27,14 @@ export default class App extends React.Component {
       <div>
         {
           this.state.valids.map(p => {
-            return sigil({
+            return <div>{sigil({
               patp: p,
               renderer: reactImageRenderer,
               size: 100,
               colors: ['black', 'white'],
-            })
+            })}
+            {p}
+            </div>
           })
         }
       </div>
