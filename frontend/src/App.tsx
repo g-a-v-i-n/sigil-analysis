@@ -9,14 +9,14 @@ export default class App extends React.Component {
   }
   componentDidMount() {
     const valids = generate({
-      yReflection: true,
+      // yReflection: true,
       // xReflection: true,
       // monolithic: true,
       dict: dict,
-      // rotation:true,
-      count: 10,
+      rotation:true,
+      count: 1,
       // contains: ['a']
-      onlyContains: ['e'],
+      onlyContains: ['a'],
       exclusive:true,
     })
     this.setState({ valids: valids })

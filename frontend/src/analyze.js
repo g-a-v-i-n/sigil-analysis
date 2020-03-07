@@ -104,10 +104,11 @@ const _A = {
     },
   },
   isRotational: quad => {
-    if (arrEq(quad, [0, 1, 2, 3])) return true
-    if (arrEq(quad, [1, 2, 3, 0])) return true
-    if (arrEq(quad, [2, 3, 0, 1])) return true
-    if (arrEq(quad, [3, 0, 1, 2])) return true
+    const _quad = quad.map(q=> q[1])
+    if (arrEq(_quad, [1, 2, 0, 3])) return true
+    if (arrEq(_quad, [2, 0, 3, 1])) return true
+    if (arrEq(_quad, [0, 3, 1, 2])) return true
+    if (arrEq(_quad, [3, 1, 2, 0])) return true
     return false
   },
 }
@@ -126,10 +127,11 @@ const _B = {
     },
   },
   isRotational: quad => {
-    if (arrEq(quad, [0, 1, 2, 3])) return true
-    if (arrEq(quad, [1, 2, 3, 0])) return true
-    if (arrEq(quad, [2, 3, 0, 1])) return true
-    if (arrEq(quad, [3, 0, 1, 2])) return true
+    const _quad = quad.map(q=> q[1])
+    if (arrEq(_quad, [0, 2, 1, 3])) return true
+    if (arrEq(_quad, [2, 1, 3, 0])) return true
+    if (arrEq(_quad, [1, 3, 0, 2])) return true
+    if (arrEq(_quad, [3, 0, 2, 1])) return true
     return false
   },
 }
@@ -163,10 +165,11 @@ const _E = {
     },
   },
   isRotational: quad => {
-    if (arrEq(quad, [0, 1, 2, 3])) return true
-    if (arrEq(quad, [1, 2, 3, 0])) return true
-    if (arrEq(quad, [2, 3, 0, 1])) return true
-    if (arrEq(quad, [3, 0, 1, 2])) return true
+    const _quad = quad.map(q=> q[1])
+    if (arrEq(_quad, [0, 1, 2, 3])) return true
+    if (arrEq(_quad, [1, 2, 3, 0])) return true
+    if (arrEq(_quad, [2, 3, 0, 1])) return true
+    if (arrEq(_quad, [3, 0, 1, 2])) return true
     return false
   },
 }
