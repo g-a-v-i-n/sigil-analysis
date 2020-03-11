@@ -365,22 +365,51 @@ const generate = config => {
   return res
 }
 
-// console.log(generate({
-//   // yReflection: true,
-//   // xReflection: true,
-//   // monolithic: true
-//   rotation:true,
-//   count: 10,
-//   exclusive:true,
-// }))
 
-// yReflection: test.reflection.y(name),
-// xReflection: test.reflection.x(name),
-// rotation: test.rotation(name),
-// monolithic: test.monolithic(name),
+const _test = config => {
+  let res = [];
+  const dict = config.dict
+  const p = config.p
+
+  config.contains = config.contains || [A, B, C, D, E]
+  config.onlyContains = config.onlyContains || [A, B, C, D, E]
+
+   if (p.length === 14) {
+     const yR = test.reflection.y(p, dict)
+     const xR = test.reflection.x(p, dict)
+     const ro = test.rotation(p, dict)
+     const mo = test.monolithic(p, dict)
+     const co = test.contains(p, dict, config.contains)
+     const oc = test.onlyContains(p, dict, config.onlyContains)
+
+     const rep = [yR, xR, ro, mo, co, oc]
+     const con = [
+       config.yReflection || false,
+       config.xReflection || false,
+       config.rotation || false,
+       config.monolithic || false,
+       true,
+       true,
+     ]
+
+     if (config.exclusive) {
+       if (arrEq(rep, con)) return true
+     } else {
+       if (config.yReflection === true && yR === true) return true
+       if (config.xReflection === true && xR === true) return true
+       if (config.rotation === true && ro === true) return true
+       if (config.monolithic === true && mo === true) return true
+       if (config.onlyContains === true && oc === true) return true
+       if (config.contains === true && co === true) return true
+     }
+   }
+  return false
+}
+
+
 
 module.exports = {
-  test,
+  test: _test,
   generate,
 }
 
