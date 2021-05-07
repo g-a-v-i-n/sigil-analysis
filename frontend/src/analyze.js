@@ -412,12 +412,3 @@ module.exports = {
   test: _test,
   generate,
 }
-
-
-// analyze('ridlur-figbud')
-// analyze('ridlur-satsyl')
-// analyze('fittyr-falref')
-// analyze('fittyr-falref')
-// analyze('rabbur-daptuc')
-// analyze('todten-todten')
-// analyze('fasren-dasten')

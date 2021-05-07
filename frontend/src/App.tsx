@@ -3,8 +3,6 @@ import {generate, test} from "./analyze.js"
 import {sigil, reactImageRenderer } from '@tlon/sigil-js'
 import dict from './dict'
 import marbus from './marbus'
-import tirrel from './tirrel'
-import monrel from './monrel'
 
 export default class App extends React.Component {
   state = {
@@ -23,16 +21,16 @@ export default class App extends React.Component {
     //   exclusive:true,
     // })
 
-    const valids = monrel.filter(p => {
+    const valids = marbus.filter(p => {
       return test({
         p: p,
-        yReflection: true,
+        // yReflection: true,
         // xReflection: true,
-        // monolithic: true,
+        monolithic: true,
         dict: dict,
         // rotation:true,
         // count: 1,
-        contains: ['e'],
+        // contains: ['e'],
         // onlyContains: ['e'],
         exclusive:true,
       })
